@@ -1,0 +1,38 @@
+.icon-left {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.icon-right {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+h3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.winter {
+    background-color: skyblue;
+}
+
+.summer {
+    background-color: orange;
+}
+.session-display.summer i{
+    color: red;
+}
+.session-display.winter i{
+    color: blue;
+}
+.session-display {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
